@@ -2,6 +2,8 @@ require("dotenv").config();
 
 var keys = require("./keys.js");
 
+var qData;
+
 //=============== If statement for input =============== 
 
 switch (process.argv[2]) {
@@ -54,8 +56,10 @@ function omdb() {
             console.log("Release Year: " + response.data.Year);
             console.log("Plot: " + response.data.Plot);
             console.log("Actors: " + response.data.Actors + "\n");
+            logTxt(response.data.Title);
         }
     );
+
 };
 
 //=============== End OMDB ===============
@@ -70,7 +74,7 @@ function song() {
     var songName = process.argv[3];
 
     if (!process.argv[3]){
-        songName = "The Sign";
+        songName = "Ace of Base";
     }
 
     spotify.search({ type: 'track', query: songName }, function (err, data) {
@@ -144,5 +148,17 @@ function doIt() {
         }; 
     });
 };
+//=============== End Do What It Says ===============
 
-//=============== Start Do What It Says ===============
+//=============== Start Data Output to log.txt ===============
+function logTxt (){
+    var fs = require("fs");
+
+    fs.appendFile('log.txt', 'data', function (err){
+        if (err) throw err;
+        console.log ("Appended to log.txt");
+    });
+}
+
+
+//=============== End Data Output to log.txt ===============
