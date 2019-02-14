@@ -1,3 +1,67 @@
 
 Data from liri.js
-data
+
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,movie-this,harry,potter
+Title: Harry Potter and the Deathly Hallows: Part 2| Year: 2011 | IMDB Rating: 8.1 | Country:  USA, UK | Language: English | Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts. | Main Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Hard Rock Stadium | Location: Miami Gardens Date: 04/20/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: State Farm Stadium | Location: Glendale Date: 05/07/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: TIAA Bank Field | Location: Jacksonville Date: 04/24/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Rose Bowl Stadium | Location: Pasadena Date: 05/11/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Levi's Stadium | Location: Santa Clara Date: 05/18/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Broncos Stadium at Mile High | Location: Denver Date: 05/26/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: FedEx Field | Location: Landover Date: 05/31/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Lincoln Financial Field | Location: Philadelphia Date: 06/04/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Gillette Stadium | Location: Foxborough Date: 06/08/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: MetLife Stadium | Location: East Rutherford Date: 06/13/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: MetLife Stadium | Location: East Rutherford Date: 06/17/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Soldier Field | Location: Chicago Date: 06/21/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Soldier Field | Location: Chicago Date: 06/25/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Boots & Hearts Music Festival | Location: Oro-medonte Date: 06/29/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: CenturyLink Field | Location: Seattle Date: 05/22/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: NRG Arena | Location: Houston Date: 04/28/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
+Venue: Fairgrounds New Orleans | Location: New Orleans Date: 05/02/2019
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song,baby,got,back
+Artist Name: Lil Baby | Song Name: Drip Too Hard (Lil Baby & Gunna) | Album Name: Drip Harder | Link to Song: https://open.spotify.com/track/78QR3Wp35dqAhFEc2qAGjE
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song,baby got back
+Artist Name: Sir Mix-A-Lot | Song Name: Baby Got Back | Album Name: Mack Daddy | Link to Song: https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl
+
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,do-what-it-says, I Want it That Way
+Artist Name: Backstreet Boys | Song Name: I Want It That Way | Album Name: The Hits--Chapter One | Link to Song: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+

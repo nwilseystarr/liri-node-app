@@ -2,9 +2,7 @@ require("dotenv").config();
 
 var keys = require("./keys.js");
 
-var qData;
-
-//=============== If statement for input =============== 
+//=============== Switch for input =============== 
 
 switch (process.argv[2]) {
     case "movie-this":
@@ -14,21 +12,22 @@ switch (process.argv[2]) {
         song()
         break;
     case "concert-this":
-        bands()
+        concert()
         break;
     case "do-what-it-says":
         doIt()
         break;
 };
 
-//=============== End if statement for input =============== 
+//=============== End switch for input =============== 
 
 //=============== Start OMDB ===============
+//Referenced in class activity for this portion
 
 function omdb() {
     var axios = require("axios");
 
-    var nodeArgs = process.argv;
+    var nodeArg = process.argv;
 
     var movieName = process.argv[3];
 
@@ -37,9 +36,9 @@ function omdb() {
     }
 
     //Loop through to put a + instead of a space for the qurl
-    for (var i = 4; i < nodeArgs.length; i++) {
+    for (var i = 4; i < nodeArg.length; i++) {
         //template literal to grab the next indices and add a + for the qurl
-        movieName += `+${nodeArgs[i]}`
+        movieName += `+${nodeArg[i]}`
     }
 
     //Constructing the queryurl 
@@ -53,23 +52,23 @@ function omdb() {
             //rotten tomatoes rating
             console.log("Country Produced In: " + response.data.Country);
             console.log("Language: " + response.data.Language);
-            console.log("Release Year: " + response.data.Year);
             console.log("Plot: " + response.data.Plot);
             console.log("Actors: " + response.data.Actors + "\n");
-            logTxt(response.data.Title);
+            var log = ("Title: " + response.data.Title + "| Year: " + response.data.Year + " | IMDB Rating: " + response.data.imdbRating + " | Country:  " + response.data.Country + " | Language: " + response.data.Language + " | Plot: " + response.data.Plot + " | Main Actors: " + response.data.Actors + "\n");
+            logTxt(nodeArg, log);
         }
     );
 
 };
-
 //=============== End OMDB ===============
 
 //=============== Start Spotify ===============
-
 function song() {
     var Spotify = require('node-spotify-api');
 
     var spotify = new Spotify(keys.spotify);
+
+    var nodeArg = process.argv;
 
     var songName = process.argv[3];
 
@@ -85,20 +84,18 @@ function song() {
         console.log("Song Name: " + data.tracks.items[0].name);
         console.log("Album Name: " + data.tracks.items[0].album.name);
         console.log("Link to Song: " + data.tracks.items[0].external_urls.spotify + "\n");
+        var log = ("Artist Name: " + data.tracks.items[0].album.artists[0].name + " | Song Name: " + data.tracks.items[0].name + " | Album Name: " + data.tracks.items[0].album.name + " | Link to Song: " + data.tracks.items[0].external_urls.spotify + "\n");
+        logTxt (nodeArg, log);
     });
 };
-
 //=============== End Spotify ===============
 
 //=============== Start Bands in Town API ===============
-
-// * if no artist name need default
-
-function bands() {
+function concert() {
     var axios = require("axios");
     var moment = require("moment");
 
-    var nodeArgs = process.argv;
+    var nodeArg = process.argv;
 
     var artistName = process.argv[3];
 
@@ -107,9 +104,9 @@ function bands() {
     }
 
     //Loop through to put a + instead of a space for the qurl
-    for (var i = 4; i < nodeArgs.length; i++) {
+    for (var i = 4; i < nodeArg.length; i++) {
         //template literal to grab the next indices and add a + for the qurl
-        artistName += `+${nodeArgs[i]}`
+        artistName += `+${nodeArg[i]}`
     }
 
     //constructing the queryurl
@@ -124,11 +121,12 @@ function bands() {
                 console.log("Location: " + response.data[i].venue.city);
                 var date = moment((response.data[i].datetime)).format("MM/DD/YYYY");
                 console.log("Date: " + date + "\n");
+                var log = ("Venue: " + response.data[i].venue.name + " | Location: " + response.data[i].venue.city + " Date: " + date + "\n");
+                logTxt (nodeArg, log);
             }
         }
     );
 };
-
 //=============== End Bands in Town API ===============
 
 //=============== Start Do What It Says ===============
@@ -151,14 +149,14 @@ function doIt() {
 //=============== End Do What It Says ===============
 
 //=============== Start Data Output to log.txt ===============
-function logTxt (){
+function logTxt (nodeArg, log){
     var fs = require("fs");
 
-    fs.appendFile('log.txt', 'data', function (err){
-        if (err) throw err;
+    fs.appendFile('log.txt', [nodeArg + "\n" + log] + "\n", function (err){
+        if (err) {
+            throw err
+        }
         console.log ("Appended to log.txt");
     });
 }
-
-
 //=============== End Data Output to log.txt ===============
