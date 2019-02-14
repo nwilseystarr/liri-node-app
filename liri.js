@@ -23,8 +23,6 @@ switch (process.argv[2]) {
 
 //=============== Start OMDB ===============
 
-// * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
 function omdb() {
     var axios = require("axios");
 
@@ -63,8 +61,6 @@ function omdb() {
 //=============== End OMDB ===============
 
 //=============== Start Spotify ===============
-
-//    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 function song() {
     var Spotify = require('node-spotify-api');
@@ -139,23 +135,14 @@ function doIt() {
          if (err){
              console.log("Error: " + error);
          }
-         console.log(data);
          var dataArr = data.split(",");
 
-         console.log(dataArr);
+         process.argv[3] = dataArr[1];
 
         if (dataArr[0] === 'spotify-this-song'){
-            song(dataArr[1]);
+            song(process.argv[3]);
         }; 
     });
 };
-
-// 4. `node liri.js do-what-it-says`
-
-//    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-//      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-
-//      * Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
 //=============== Start Do What It Says ===============
