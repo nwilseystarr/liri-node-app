@@ -1,149 +1,90 @@
 Data from liri.js
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,movie-this,harry,potter
-Title: Harry Potter and the Deathly Hallows: Part 2| Year: 2011 | IMDB Rating: 8.1 | Country:  USA, UK | Language: English | Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts. | Main Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song,bohemian,rhapsody
+Artist Name: Queen | Song Name: Bohemian Rhapsody - Remastered 2011 | Album Name: A Night At The Opera (Deluxe Remastered Version) 
+| Link to Song: https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Hard Rock Stadium | Location: Miami Gardens Date: 04/20/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Rogers Arena | Location: Vancouver Date: 07/10/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: State Farm Stadium | Location: Glendale Date: 05/07/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Tacoma Dome | Location: Tacoma Date: 07/12/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: TIAA Bank Field | Location: Jacksonville Date: 04/24/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: The Forum | Location: Los Angeles Date: 07/20/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Rose Bowl Stadium | Location: Pasadena Date: 05/11/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: American Airlines Center | Location: Dallas Date: 07/23/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Levi's Stadium | Location: Santa Clara Date: 05/18/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Toyota Center | Location: Houston Date: 07/24/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Broncos Stadium at Mile High | Location: Denver Date: 05/26/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Little Caesars Arena | Location: Detroit Date: 07/27/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: FedEx Field | Location: Landover Date: 05/31/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Scotiabank Theatre | Location: Toronto Date: 07/28/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Lincoln Financial Field | Location: Philadelphia Date: 06/04/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Capital One Arena | Location: Washington Date: 07/30/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Gillette Stadium | Location: Foxborough Date: 06/08/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: PPG Paints Arena | Location: Pittsburgh Date: 07/31/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: MetLife Stadium | Location: East Rutherford Date: 06/13/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Wells Fargo Center | Location: Philadelphia Date: 08/03/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: MetLife Stadium | Location: East Rutherford Date: 06/17/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Xfinity Center | Location: Boston Date: 08/04/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Soldier Field | Location: Chicago Date: 06/21/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Madison Square Garden | Location: New York Date: 08/06/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Soldier Field | Location: Chicago Date: 06/25/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Madison Square Garden | Location: New York Date: 08/07/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Boots & Hearts Music Festival | Location: Oro-medonte Date: 06/29/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: United Center | Location: Chicago Date: 08/09/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: CenturyLink Field | Location: Seattle Date: 05/22/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Xcel Energy Center | Location: St Paul Date: 08/10/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: NRG Arena | Location: Houston Date: 04/28/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Nationwide Arena | Location: Columbus Date: 08/13/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,rolling,stones
-Venue: Fairgrounds New Orleans | Location: New Orleans Date: 05/02/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Bridgestone Arena | Location: Nashville Date: 08/15/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song,baby,got,back
-Artist Name: Lil Baby | Song Name: Drip Too Hard (Lil Baby & Gunna) | Album Name: Drip Harder | Link to Song: https://open.spotify.com/track/78QR3Wp35dqAhFEc2qAGjE
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: BB&T Center | Location: Fort Lauderdale Date: 08/17/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song,baby got back
-Artist Name: Sir Mix-A-Lot | Song Name: Baby Got Back | Album Name: Mack Daddy | Link to Song: https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Amalie Arena | Location: Tampa Date: 08/18/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,do-what-it-says, I Want it That Way
-Artist Name: Backstreet Boys | Song Name: I Want It That Way | Album Name: The Hits--Chapter One | Link to Song: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Smoothie King Center | Location: New Orleans Date: 08/20/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,movie-this
-Title: Mr. Nobody| Year: 2009 | IMDB Rating: 7.8 | Country:  Belgium, Germany, Canada, France, USA, UK | Language: English, Mohawk | Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. | Main Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: State Farm Arena | Location: Atlanta Date: 08/22/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,spotify-this-song
-Artist Name: Ace of Base | Song Name: The Sign | Album Name: The Sign (US Album) [Remastered] | Link to Song: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Spectrum Center | Location: Charlotte Date: 08/23/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: NRG Arena | Location: Houston Date: 03/01/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: The Forum | Location: Los Angeles Date: 07/19/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Beach Bash Music Festival | Location: South Padre Island Date: 03/13/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: SAP Center | Location: San Jose Date: 07/14/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Steele Indian School Park | Location: Phoenix Date: 03/16/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this,Adam,Lambert
+Venue: Talking Stick Resort Arena | Location: Phoenix Date: 07/16/2019
 
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Iowa Events Center | Location: Des Moines Date: 05/03/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Providence Medical Center Amphitheater | Location: Bonner Springs Date: 05/04/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Hard Rock Stadium | Location: Miami Gardens Date: 05/10/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Gulf Shores, AL | Location: Gulf Shores Date: 05/17/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Gulf Shores, AL | Location: Gulf Shores Date: 05/18/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Gulf Shores, AL | Location: Gulf Shores Date: 05/19/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Royal Farms Arena | Location: Baltimore Date: 05/24/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Primavera Sound Festival | Location: Barcelona Date: 05/31/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Parc del Fòrum | Location: Barcelona Date: 05/30/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Orange Warsaw Festival | Location: Warszawa Date: 06/01/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Parklife Festival | Location: Manchester Date: 06/08/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Heaton Park Manchester | Location: Manchester Date: 06/09/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Bonnaroo Music and Arts Festival | Location: Manchester Date: 06/16/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Staples Center | Location: Los Angeles Date: 06/22/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Vestiville | Location: Lommel Date: 06/30/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Finsbury Park | Location: London Date: 07/05/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Wireless Festival | Location: Frankfurt Date: 07/06/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Marlay Park | Location: Dublin Date: 07/07/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Industriezone Balendijk | Location: Lommel Date: 06/28/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Roskilde Festival | Location: Roskilde Date: 07/03/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: Openair Frauenfeld | Location: Frauenfeld Date: 07/11/2019
-
-/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,concert-this
-Venue: California Mid-State Fair | Location: Paso Robles Date: 07/20/2019
+/usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,movie-this,bohemian,rhapsody
+Title: Bohemian Rhapsody| Year: 2018 | IMDB Rating: 8.3 | Country:  UK, USA | Language: English | Plot: The story of the 
+legendary rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985). 
+| Main Actors: Rami Malek, Lucy Boynton, Gwilym Lee, Ben Hardy
 
 /usr/local/bin/node,/Users/nicolewilsey/trilogy/homework/liri-node-app/liri-node-app/liri.js,do-what-it-says, I Want it That Way
-Artist Name: Backstreet Boys | Song Name: I Want It That Way | Album Name: The Hits--Chapter One | Link to Song: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Artist Name: Backstreet Boys | Song Name: I Want It That Way | Album Name: The Hits--Chapter One | Link to Song: 
+https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
 
