@@ -1,9 +1,29 @@
 # liri-node-app
 
 ## Overview 
-LIRI is a Language Interpretation and Recognition Interface application that uses node.js and teh command line taking in parameters and outputting data. LIRI can search for movies, songs, concerts, and even surprise you. 
+LIRI is a Language Interpretation and Recognition Interface application that uses node.js and the command line taking in parameters and outputting data. LIRI can search for movies, songs, concerts, and even surprise you. 
 
 ## Use 
+LIRI can take in four commands outlined below. 
+### movie-this  
+Uses the OMDB API to to display the title, release year, IMDB Rating, country produced in, the language of the film, the short plot, and the main actors for a given movie.
+Command syntax: `node liri.js movie-this bohemian rhapsody`
+
+###spotify-this-song 
+Uses the node-spotify-API to display the artist name, song name, and album name for a given song title.
+Command syntax: `node liri.js spotify-this-song bohemian rhapsody`
+
+###concert-this
+Uses the Bands in Town API to display the venue, location, and date of concerts given a specified bad.
+Command syntax: `node liri.js concert-this Adam Lambert`
+
+###do-what-it-says
+Uses the fs package to call `random.txt` and run whatever command is in that file.
+Command syntax: `node liri.js do-what-it-says`
+
+
+## Technical Aspects
+
 As LIRI is a CLI I have provided screenshots and video below showing how the app works. You can also run it yourself by cloning the repo and creating your own .env file with the following parameters: 
 ```js
 # Spotify API keys
@@ -14,7 +34,6 @@ SPOTIFY_SECRET=YOUR SPOTIFY SECRET HERE
 
 You will also need to install the node packages that are in package.json using the "node install" command in your terminal. 
 
-## Technical Aspects
 ### [OMDB-API](http://omdbapi.com/)
 The OMBD API requires the Axios package with a query URL and .get and the promise with a loop through the JSON response and then parsing that response to retrieve the *title*, *release year*, *IMDB rating*, *country produced in*, *language*, *plot*, and *actors*. Once a movie is searched the following will be returned: 
 
