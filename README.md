@@ -32,7 +32,7 @@ The Bands In Town API functions very similarly to the OMDB API. It requires the 
 ![Concert This Return](images/concert-this.png)
 
 ### Do-What-It-Says
-The "do-what-it-says" command uses the fs package to read the random.txt document then push it into the `spotify()` function and run it with whatever song is in the random.txt file. 
+The "do-what-it-says" command uses the fs package to read the `random.txt` document then push it into the `spotify()` function and run it with whatever song is in the `random.txt` file. 
  ![Do What It Says Return](images/do-what-it-says.png)
 
 ### Log.txt 
