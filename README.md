@@ -9,15 +9,15 @@ LIRI can take in four commands outlined below.
 Uses the OMDB API to to display the title, release year, IMDB Rating, country produced in, the language of the film, the short plot, and the main actors for a given movie.
 Command syntax: `node liri.js movie-this bohemian rhapsody`
 
-###spotify-this-song 
+### spotify-this-song 
 Uses the node-spotify-API to display the artist name, song name, and album name for a given song title.
 Command syntax: `node liri.js spotify-this-song bohemian rhapsody`
 
-###concert-this
+### concert-this
 Uses the Bands in Town API to display the venue, location, and date of concerts given a specified bad.
 Command syntax: `node liri.js concert-this Adam Lambert`
 
-###do-what-it-says
+### do-what-it-says
 Uses the fs package to call `random.txt` and run whatever command is in that file.
 Command syntax: `node liri.js do-what-it-says`
 
