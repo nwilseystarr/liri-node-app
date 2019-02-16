@@ -39,16 +39,28 @@ The OMBD API requires the Axios package with a query URL and .get and the promis
 
 ![Movie This Return](images/movie-this.png)
 
+If no movie is specified, "Mr. Nobody" will be returned as the default: 
+
+![Movie This Default Return](images/movie-this-default.png)
+
 
 ### [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 The Node-Spotify-API is "a simple to use API library for the Spotify REST API". In this application I've used the `search` method as it is the easiest way to find a track. The response is in a JSON object and multiple arrays. The properties accessed for this are *Artist*, *Song Name*, *Album Name*, and *Link to Song*. Once a song is searched the following will be returned:
 
 ![Spotify Return](images/spotify-this-song.png)
 
+If no song is specified, "The Sign" by Ace of Base will be returned as the default: 
+
+![Spotify This Default Return](images/spotify-this-default.png)
+
 ### [Bands-In-Town-API](https://manager.bandsintown.com/support/bandsintown-api)
 The Bands In Town API functions very similarly to the OMDB API. It requires the Axios package with a query URL and .get and the promise with a loop through the JSON response and then parsing that response to retrieve the *venue*, *location*, and *date*. Once a band is searched the following will be returned: 
 
 ![Concert This Return](images/concert-this.png)
+
+If no artist is specified, Cardi B will be returned as the default: 
+
+![Concert This Default Return](images/concert-this-default.png)
 
 ### Do-What-It-Says
 The "do-what-it-says" command uses the fs package to read the `random.txt` document then push it into the `spotify()` function and run it with whatever song is in the `random.txt` file. 
